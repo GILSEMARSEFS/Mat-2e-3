@@ -1,46 +1,30 @@
-:root{
-  --cor-fundo: #5ec6e8;
-  --cor-principal: #0B0D20 ;
-  --cor-secundaria: #1124b0;
-  --cor-destaque: #4efd2b;
-  --cor-texto: #D7F9FF;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
 
-body{
-  background-color: var(--cor-fundo);
-  color: var(--cor-texto);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Você decide o futuro da IA</title>
+</head>
 
-.caixa-principal{
-  background-color: var(--cor-principal);
-  width: 90%;
-  max-width: 600px;
-  text-align: center;
-  padding: 20px;
-}
+<body>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro do IA</h1>
+        <div class="caixa-perguntas">
+            Estudantes, Vocês já sabe quais são as perguntas que irão nortear sua missão Ímpossivel ?
+        </div>
+        <div class="caixa-alternativas">
+            <button>Sim, eu já sei, estou cheio de ideias</button>
+            <button>Não, estou ajustando algumas coisas</button>
+        </div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado">
+                E o seu texto final, já está pronto ? FALTA TANTA COISA
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
 
-h1{
-  color: var(--cor-destaque);
-}
-
-button{
-  background-color: var(--cor-secundaria);
-  color: var(--cor-texto);
-  border: none;
-  border-radius: 15px;
-  padding: 15px;
-  transition: background-color 0.3s;
-}
-
-button:hover{
-  background-color: var(--cor-destaque);
-  color: var(--cor-principal);
-}
-
-.caixa-perguntas{
-  padding-bottom: 10px;
-}
+</html>
